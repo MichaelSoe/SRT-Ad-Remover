@@ -42,8 +42,8 @@ _**Example**_
 
 ## BAZARR
 
-You can use this script together with Bazarr:
+You can use this script together with [Bazarr](https://www.bazarr.media/):
 - In your Bazarr instance, navigate to `Settings` > `Subtitles`
 - Check `Use Custom Post-Processing`
-- Add the following command to `Post-processing command:  
+- Add the following command to `Post-processing command`:  
 `python [[PATH-TO-THIS-SCRIPT]]/srt-ad-remover.py "{{subtitles}}"`
